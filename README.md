@@ -1,5 +1,5 @@
 # Responsive Personal Landing Page
-## [Copyrights given to](https://youtu.be/lgo1CEPZoxg)
+## [Based on this video](https://youtu.be/lgo1CEPZoxg)
 
 - Responsive personal website using HTML, CSS and JavaScript.
 - Contains animations when scrolling.
