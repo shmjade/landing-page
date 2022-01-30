@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!--=============== FAVICON ===============-->
-        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+        <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
 
         <!--=============== BOXICONS ===============-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
@@ -42,10 +42,10 @@
                         </li>
 
                         <li class="nav__item">
-                            <a href="#new" class="nav__link">Game</a>
+                            <a href="#game" class="nav__link">Game</a>
                         </li>
 
-                        <a href="#" class="button button--ghost">Contact</a>
+                        <a href="#contact" class="button button--ghost">Contact</a>
                     </ul>
 
                     <div class="nav__close" id="nav-close">
@@ -71,7 +71,7 @@
                         <section class="swiper-slide">
                             <div class="home__content grid">
                                 <div class="home__group">
-                                    <iframe height=290, width=530, src="https://www.youtube.com/embed/YkqbXWNVIx8?autoplay=1&mute=0&loop=1"></iframe>
+                                    <iframe width="530" height="290" src="https://www.youtube.com/embed/PmTROJOiozk?controls=0" title="Self pitch video" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     <img src="assets/img/profile.jpg" alt="" width=530>
                                     <!---
                                         <img src="assets/img/profile.jpg" alt="" class="home__img">
@@ -79,8 +79,8 @@
                                     <div class="home__indicator"></div>
     
                                     <div class="home__details-img">
-                                        <h4 class="home__details-title">The Labu “Reiza”</h4>
-                                        <span class="home__details-subtitle">The Living Pumpkin</span>
+                                        <h4 class="home__details-title">Jade Hatanaka</h4>
+                                        <span class="home__details-subtitle">Former pilot/current Computer Science student</span>
                                     </div>
                                 </div>
     
@@ -91,7 +91,7 @@
                                     </p>
 
                                     <div class="home__buttons">
-                                        <a href="#" class="button">Curriculum</a>
+                                        <a href="/assets/img/JadeHatanaka-CV.pdf" download="cvJADE" class="button">Curriculum</a>
                                         <a href="#" class="button--link button--flex">Track Record <i class='bx bx-right-arrow-alt button__icon'></i></a>
                                     </div>
                                 </div>
@@ -188,9 +188,9 @@
                 <div class="about__container container grid">
                     <div class="about__data">
                         <h2 class="section__title about__title">Programming<br> Skills</h2>
-                        <p class="about__description">Night of all the saints, or all the dead, is celebrated on October 31 and it is a 
-                            very fun international celebration, this celebration comes from ancient origins, and is already 
-                            celebrated by everyone.
+                        <p class="about__description">After being infected with meningoencephalitis, Jade found in Computer Science one more reason
+                            to learn to walk again. In 2021, while recovering from the illness at home, she started taking some programming online courses. 
+                            Studying was a flashlight in her life and, because of that, she decided to start a degree in Computer Science at UFRGS.
                         </p>
                         <a href="#" class="button">Know more</a>
                     </div>
@@ -267,113 +267,54 @@
             </section>
             
             <!--==================== DISCOUNT ====================-->
-            <section class="section discount">
+            <section class="section discount" id="game">
                 <div class="discount__container container grid">
                     <div class="discount__data">
-                        <h2 class="discount__title">50% Discount <br> On New Products</h2>
-                        <a href="#" class="button">Go to new</a>
+                        <h2 class="discount__title">My first game script:<br> A version of Mario Dos</h2>
+                        <a href="https://github.com/shmjade/Mario-Potter/tree/master" target="_blank" class="button">Github repository</a>
                     </div>
-
-                    <img src="assets/img/discount-img.png" alt="" class="discount__img">
+                    <img src="assets/img/HP.png" alt="" class="discount__img">
+                </div>
+                <div class="discount__container2 container grid">
+                    <iframe width="1000" height="700" justify-self:center src="https://www.youtube.com/embed/Pq4wFoDaeQA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    
                 </div>
             </section>
 
             <!--==================== NEW ARRIVALS ====================-->
             <section class="section new" id="new">
-                <h2 class="section__title">New Arrivals</h2>
+                <h2 class="section__title">Academic studies</h2>
 
                 <div class="new__container container">
                     <div class="swiper new-swiper">
                         <div class="swiper-wrapper">
                             <div class="new__content swiper-slide">
-                                <div class="new__tag">New</div>
-                                <img src="assets/img/new1-img.png" alt="" class="new__img">
-                                <h3 class="new__title">Haunted House</h3>
-                                <span class="new__subtitle">Accessory</span>
-                                
+                                <div class="new__tag">AFA</div>
+                                <img src="assets/img/aeronautical.png" alt="" class="new__img">
+                                <h3 class="new__title">Aeronautical sciences</h3>
+                                <span class="new__subtitle">[postponed]</span>                                
                                 <div class="new__prices">
-                                    <span class="new__price">$14.99</span>
-                                    <span class="new__discount">$29.99</span>
+                                    <span class="new__price">   80% complete</span>    
                                 </div>
-
-                                <button class="button new__button">
-                                    <i class='bx bx-cart-alt new__icon'></i>
-                                </button>
                             </div>
         
                             <div class="new__content swiper-slide">
-                                <div class="new__tag">New</div>
-                                <img src="assets/img/new2-img.png" alt="" class="new__img">
-                                <h3 class="new__title">Halloween Candle</h3>
-                                <span class="new__subtitle">Accessory</span>
-        
+                                <div class="new__tag">AFA</div>
+                                <img src="assets/img/manag.png" alt="" class="new__img">
+                                <h3 class="new__title">Management</h3>
+                                <span class="new__subtitle">[postponed]</span>                                
                                 <div class="new__prices">
-                                    <span class="new__price">$11.99</span>
-                                    <span class="new__discount">$21.99</span>
+                                    <span class="new__price">   80% complete</span>    
                                 </div>
-
-                                <button class="button new__button">
-                                    <i class='bx bx-cart-alt new__icon'></i>
-                                </button>
                             </div>
         
                             <div class="new__content swiper-slide">
-                                <div class="new__tag">New</div>
-                                <img src="assets/img/new3-img.png" alt="" class="new__img">
-                                <h3 class="new__title">Witch Hat</h3>
-                                <span class="new__subtitle">Accessory</span>
+                                <div class="new__tag">UFRGS</div>
+                                <img src="assets/img/computerScience.png" alt="" class="new__img">
+                                <h3 class="new__title">Computer Science</h3>
+                                <span class="new__subtitle">[in progress]</span>
         
                                 <div class="new__prices">
-                                    <span class="new__price">$4.99</span>
-                                    <span class="new__discount">$9.99</span>
-                                </div>
-
-                                <button class="button new__button">
-                                    <i class='bx bx-cart-alt new__icon'></i>
-                                </button>
-                            </div>
-        
-                            <div class="new__content swiper-slide">
-                                <div class="new__tag">New</div>
-                                <img src="assets/img/new4-img.png" alt="" class="new__img">
-                                <h3 class="new__title">Rip</h3>
-                                <span class="new__subtitle">Accessory</span>
-        
-                                <div class="new__prices">
-                                    <span class="new__price">$24.99</span>
-                                    <span class="new__discount">$44.99</span>
-                                </div>
-
-                                <button class="button new__button">
-                                    <i class='bx bx-cart-alt new__icon'></i>
-                                </button>
-                            </div>
-        
-                            <div class="new__content swiper-slide">
-                                <div class="new__tag">New</div>
-                                <img src="assets/img/new5-img.png" alt="" class="new__img">
-                                <h3 class="new__title">Terrifying Crystal Ball</h3>
-                                <span class="new__subtitle">Accessory</span>
-        
-                                <div class="new__prices">
-                                    <span class="new__price">$5.99</span>
-                                    <span class="new__discount">$12.99</span>
-                                </div>
-
-                                <button class="button new__button">
-                                    <i class='bx bx-cart-alt new__icon'></i>
-                                </button>
-                            </div>
-        
-                            <div class="new__content swiper-slide">
-                                <div class="new__tag">New</div>
-                                <img src="assets/img/new6-img.png" alt="" class="new__img">
-                                <h3 class="new__title">Witch Broom</h3>
-                                <span class="new__subtitle">Accessory</span>
-        
-                                <div class="new__prices">
-                                    <span class="new__price">$7.99</span>
-                                    <span class="new__discount">$14.99</span>
+                                    <span class="new__price">20% complete</span>
                                 </div>
 
                                 <button class="button new__button">
@@ -386,18 +327,16 @@
             </section>
 
             <!--==================== OUR NEWSLETTER ====================-->
-            <section class="section newsletter">
+            <section class="section newsletter" id="contact">
                 <div class="newsletter__container container">
-                    <h2 class="section__title">Our Newsletter</h2>
+                    <h2 class="section__title">Contact</h2>
                     <p class="newsletter__description">
-                        Promotion new products and sales. Directly to your inbox
+                        Should you have any doubt, please contact:
                     </p>
 
                     <form action="" class="newsletter__form">
-                        <input type="text" placeholder="Enter your email" class="newsletter__input">
-                        <button class="button">
-                            Subscribe
-                        </button>
+                        <input type="text" placeholder="jshatanakam@gmail.com" class="newsletter__input" >
+                        <a href = "mailto:jshatanakam@gmail.com?subject = Landing page contact&body = Message" class="button">Email</a>
                     </form>
                 </div>
             </section>
@@ -409,10 +348,10 @@
                     <div class="footer__content">
                         <a href="#" class="footer__logo">
                             <img src="assets/img/logo.png" alt="" class="footer__logo-img">
-                            Halloween
+                            Social media
                         </a>
 
-                        <p class="footer__description">Enjoy the scariest night <br> of your life.</p>
+                        <p class="footer__description">Not available now <br> [in progress]</p>
                         
                         <div class="footer__social">
                             <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
@@ -428,49 +367,49 @@
                     </div>
 
                     <div class="footer__content">
-                        <h3 class="footer__title">About</h3>
+                        <h3 class="footer__title">Useful platforms</h3>
                         
                         <ul class="footer__links">
                             <li>
-                                <a href="#" class="footer__link">About Us</a>
+                                <a href="https://www.linkedin.com/in/jadehatanaka/" target="_blank" class="footer__link">Linkedin</a>
                             </li>
                             <li>
-                                <a href="#" class="footer__link">Features</a>
+                                <a href="https://github.com/shmjade" target="_blank" class="footer__link">Github</a>
                             </li>
                             <li>
-                                <a href="#" class="footer__link">News</a>
+                                <a href="https://www.hackerrank.com/shm_jade" target="_blank" class="footer__link">Hackerrank</a>
                             </li>
                         </ul>
                     </div>
 
                     <div class="footer__content">
-                        <h3 class="footer__title">Our Services</h3>
+                        <h3 class="footer__title">Videos</h3>
                         
                         <ul class="footer__links">
                             <li>
-                                <a href="#" class="footer__link">Pricing</a>
+                                <a href="https://www.youtube.com/watch?v=YkqbXWNVIx8" target="_blank" class="footer__link">Self pitch - portuguese</a>
                             </li>
                             <li>
-                                <a href="#" class="footer__link">Discounts</a>
+                                <a href="https://www.youtube.com/watch?v=PmTROJOiozk" target="_blank" class="footer__link">Self pitch - english</a>
                             </li>
                             <li>
-                                <a href="#" class="footer__link">Shipping mode</a>
+                                <a href="https://www.youtube.com/watch?v=Pq4wFoDaeQA" target="_blank" class="footer__link">Mario Potter gameplay</a>
                             </li>
                         </ul>
                     </div>
 
                     <div class="footer__content">
-                        <h3 class="footer__title">Our Company</h3>
+                        <h3 class="footer__title">Projects</h3>
                         
                         <ul class="footer__links">
                             <li>
-                                <a href="#" class="footer__link">Blog</a>
+                                <a href="#" class="footer__link">Python</a>
                             </li>
                             <li>
-                                <a href="#" class="footer__link">About us</a>
+                                <a href="#" class="footer__link">C</a>
                             </li>
                             <li>
-                                <a href="#" class="footer__link">Our mision</a>
+                                <a href="#" class="footer__link">Java</a>
                             </li>
                         </ul>
                     </div>
@@ -478,8 +417,8 @@
 
                 <span class="footer__copy">&#169; Bedimcode. All rigths reserved</span>
 
-                <img src="assets/img/footer1-img.png" alt="" class="footer__img-one">
-                <img src="assets/img/footer2-img.png" alt="" class="footer__img-two">
+                <img src="assets/img/airplane2.png" class="footer__img-one">
+                <img src="assets/img/airplane.png" alt="" class="footer__img-two">
             </footer>
 
             <!--=============== SCROLL UP ===============-->
